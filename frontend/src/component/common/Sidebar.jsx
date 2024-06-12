@@ -42,7 +42,7 @@ const Sidebar = () => {
         <Link to="/" className="flex justify-center md:justify-start">
           <div className="flex justify-start items-center">
             <ConnectifySvg className="px-2 w-12 h-12 rounded-full fill-white hover:bg-stone-900" />
-            <span className="text-white font-bold">Connectify</span>
+            <span className="text-white font-bold hidden md:block">Connectify</span>
           </div>
         </Link>
         <ul className="flex flex-col gap-3 mt-4">
